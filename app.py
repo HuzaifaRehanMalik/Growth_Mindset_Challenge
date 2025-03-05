@@ -74,7 +74,7 @@ if uploded_File:
             st.download_button(
                 label=f"⬇️ Download {file.name} as {coversion_type}",
                 data=buffer.getvalue(),
-                filename=file_name,
+                file_name=file_name,
                 mime=mime_type,
 
             )
